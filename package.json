@@ -22,6 +22,11 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "watch": "tsc --watch",
+    "build:dev": "tsc -p tsconfig.build.json",
+    "build:prod": "tsc -p tsconfig.prod.json",
+    "prepare": "npm run build:prod",
+    "postinstall": "npm run prepare",
     "publish:npm": "rm -rf dist && mkdir dist && babel ./src/ -d dist --copy-files"
   },
   "keywords": [
