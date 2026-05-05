@@ -237,7 +237,7 @@ export { default as Stopwatch } from './Stopwatch';
 export { default as Suitcase } from './Suitcase';
 export { default as Sun } from './Sun';
 export { default as Syringe } from './Syringe';
-export { default as Tag } from './Tag';
+export { default as Tags } from './Tags';
 export { default as TestTube } from './TestTube';
 export { default as Tooth } from './Tooth';
 export { default as Trash1 } from './Trash1';

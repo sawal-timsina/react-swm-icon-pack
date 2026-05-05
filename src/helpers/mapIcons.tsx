@@ -242,7 +242,7 @@ const icons: { [key: string]: React.FC<IconType> } = {
   Suitcase: SWMIconPack.Suitcase,
   Sun: SWMIconPack.Sun,
   Syringe: SWMIconPack.Syringe,
-  Tag: SWMIconPack.Tag,
+  Tags: SWMIconPack.Tags,
   TestTube: SWMIconPack.TestTube,
   Tooth: SWMIconPack.Tooth,
   Trash1: SWMIconPack.Trash1,
